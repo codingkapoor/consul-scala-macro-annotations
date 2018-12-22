@@ -1,2 +1,2 @@
-# service-registration-to-consul-using-scala-macro-annotations
-Use Scala Macro Annotations To Register Microservices To Consul: Rid Boilerplate
+# consul-service-registration-using-scala-macro-annotations
+Use Scala Macro Annotations to register microservices to Consul and rid a lot of boilerplate code.
