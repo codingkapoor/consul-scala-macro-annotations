@@ -1,2 +1,2 @@
 # scala-macro-annotations-consul-service-registration
-Use Scala Macro Annotations to register microservices to Consul and rid a lot of boilerplate code.
+Microservices can use @EnableServiceDiscovery macro-annotation to register themselves to Consul out of the box.
