@@ -24,20 +24,20 @@ $ git clone git@github.com:codingkapoor/consul-scala-macro-annotations.git
 
 ## Build Package
 ```
-$ cd scala-macro-annotations-consul-service-registration
+$ cd consul-scala-macro-annotations
 $ sbt> project myservice
 $ sbt> universal:packageBin
 ```
 
 ## Start Service
 ```
-$ cd scala-macro-annotations-consul-service-registration/myservice/target/universal
-$ unzip scala-macro-annotations-consul-service-registration.zip
-$ cd scala-macro-annotations-consul-service-registration
+$ cd consul-scala-macro-annotations/myservice/target/universal
+$ unzip consul-scala-macro-annotations.zip
+$ cd consul-scala-macro-annotations
 $ bin/start.sh
 $ tail -f logs/stdout.log
 ```
 
 ## Direct browser `@localhost:8080`
-Root api endpoint should return following message: 
+Root API endpoint should return following string: 
 > Microservices can use `@EnableServiceDiscovery` macro-annotation to register themselves to Consul out of the box.
