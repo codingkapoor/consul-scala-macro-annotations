@@ -36,7 +36,7 @@ object MyService extends App {
     case Success(bound) =>
       println(s"MyService started @ http://$interface:$port")
     case Failure(e) =>
-      Console.err.println(s"Server could not start!")
+      Console.err.println(s"MyService could not start!")
       e.printStackTrace()
       system.terminate()
   }
