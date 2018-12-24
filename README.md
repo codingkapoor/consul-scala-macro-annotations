@@ -1,6 +1,6 @@
 # consul-scala-macro-annotations
 
-## Start Consul Agent
+## Start Consul
 
 ```
 $ consul agent -config-file=config.consul.json &
