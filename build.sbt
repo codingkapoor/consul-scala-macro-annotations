@@ -1,5 +1,5 @@
 
-name := "scala-macro-annotations-consul-service-registration"
+name := "consul-scala-macro-annotations"
 
 version := "1.0-SNAPSHOT"
 
