@@ -19,7 +19,7 @@ $ consul agent -config-file=config.consul.json &
 ```
 ## Clone Repo
 ```
-$ git clone git@github.com:codingkapoor/scala-macro-annotations-consul-service-registration.git
+$ git clone git@github.com:codingkapoor/consul-scala-macro-annotations.git
 ```
 
 ## Build Package
@@ -39,4 +39,5 @@ $ tail -f logs/stdout.log
 ```
 
 ## Direct browser `@localhost:8080`
-Root api endpoint should return: *Microservices can use `@EnableServiceDiscovery` macro-annotation to register themselves to Consul out of the box.*
+Root api endpoint should return following message: 
+> Microservices can use `@EnableServiceDiscovery` macro-annotation to register themselves to Consul out of the box.
