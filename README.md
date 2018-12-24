@@ -1,4 +1,4 @@
-# scala-macro-annotations-consul-service-registration
+# consul-scala-macro-annotations
 
 ## Start Consul Agent
 
