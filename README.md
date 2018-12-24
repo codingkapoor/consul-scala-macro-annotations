@@ -38,6 +38,5 @@ $ bin/start.sh
 $ tail -f logs/stdout.log
 ```
 
-**Direct browser** `@localhost:8080`
-
+## Direct browser `@localhost:8080`
 *Microservices can use `@EnableServiceDiscovery` macro-annotation to register themselves to Consul out of the box.*
