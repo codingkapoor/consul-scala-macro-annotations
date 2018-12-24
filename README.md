@@ -32,8 +32,8 @@ $ sbt> universal:packageBin
 ## Start Service
 ```
 $ cd consul-scala-macro-annotations/myservice/target/universal
-$ unzip consul-scala-macro-annotations.zip
-$ cd consul-scala-macro-annotations
+$ unzip myservice-0.1.0-SNAPSHOT.zip
+$ cd myservice-0.1.0-SNAPSHOT
 $ bin/start.sh
 $ tail -f logs/stdout.log
 ```
