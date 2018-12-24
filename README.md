@@ -39,4 +39,4 @@ $ tail -f logs/stdout.log
 ```
 
 ## Direct browser `@localhost:8080`
-*Microservices can use `@EnableServiceDiscovery` macro-annotation to register themselves to Consul out of the box.*
+Root api endpoint should return: *Microservices can use `@EnableServiceDiscovery` macro-annotation to register themselves to Consul out of the box.*
