@@ -39,7 +39,8 @@ $ tail -f logs/stdout.log
 ```
 
 ## Direct browser `@localhost:8080`
-Root API endpoint should return following string: 
+Accessing root at @localhost:8080 should return following message.
+
 > Microservices can use `@EnableServiceDiscovery` macro-annotation to register themselves to Consul out of the box.
 
 ## Consul Health Checks
